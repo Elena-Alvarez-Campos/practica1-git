@@ -13,3 +13,13 @@ let cine={
     ]
 }
 //Crea una función para comprar palomitas y refrescos
+function comprar(cine, cantidad,producto_pedido){
+    for(let cada_producto of cine.productos){
+        console.log(cada_producto)
+        if(cada_producto.nombre==producto_pedido){
+            console.log(true)
+        }
+    }
+
+}
+console.log(comprar(cine,2,"palomitas"))
