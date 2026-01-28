@@ -14,12 +14,12 @@ let cine={
 }
 //Crea una función para comprar palomitas y refrescos
 function comprar(cine, cantidad,producto_pedido){
+    let total=0
     for(let cada_producto of cine.productos){
-        console.log(cada_producto)
         if(cada_producto.nombre==producto_pedido){
-            console.log(true)
+            total=cada_producto.precio*cantidad
         }
     }
-
+    return total
 }
-console.log(comprar(cine,2,"palomitas"))
+console.log(comprar(cine,2,"palomitas"))//Devuelve el total a pagar
