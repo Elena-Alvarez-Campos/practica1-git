@@ -26,10 +26,11 @@ function comprar(cine, cantidad,producto_pedido){
     let total=0
     for(let cada_producto of cine.productos){
         if(cada_producto.nombre=="palomitas"){
+            console.log("Otros tamaños incluyen:")
             for(let cada_tamaño of cada_producto.tamaño){
-                console.log(cada_tamaño)
+                console.log("Tamaño "+cada_tamaño)
+
             }
-            
         }
         if(cada_producto.nombre==producto_pedido){
             total=cada_producto.precio*cantidad
