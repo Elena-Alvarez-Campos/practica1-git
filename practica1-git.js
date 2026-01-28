@@ -4,10 +4,19 @@ let cine={
     productos:[
         {
             nombre:"palomitas",
+            tamaño:["pequeño","mediano","grande"],
             precio:5
         },
         {
             nombre:"refresco",
+            precio:3
+        },
+        {
+            nombre:"entrada",
+            precio:8
+        },
+        {
+            nombre:"gafas3D",
             precio:3
         }
     ]
