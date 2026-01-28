@@ -38,5 +38,5 @@ function comprar(cine, cantidad,producto_pedido){
     }
     return total
 }
-console.log(comprar(cine,2,"palomitas"))//Devuelve el total a pagar
+console.log(comprar(cine,3,"gafas3D"))//Devuelve el total a pagar
 //Fin del ejercicio
